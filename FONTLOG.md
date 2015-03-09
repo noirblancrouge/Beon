@@ -15,7 +15,7 @@ Beon, a neon typeface.
 Information for Contributors
 ------------------------------
 
-Demo is released under the OFL 1.1 - http://scripts.sil.org/OFL
+Beon is released under the OFL 1.1 - http://scripts.sil.org/OFL
 
 For information on what you're allowed to change or modify, consult the
 LICENSE.txt and OFL-FAQ.txt files. The OFL-FAQ also gives a very general
