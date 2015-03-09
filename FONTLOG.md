@@ -9,7 +9,7 @@ and any derivative works.
 Basic Font Information
 --------------------------
 
-Beo, a neon typeface.
+Beon, a neon typeface.
 
 
 Information for Contributors
