@@ -1,0 +1,57 @@
+# Prefix: Prefix
+lookup SUB_3 {
+	sub A by ordfeminine;
+	sub O by ordmasculine;
+	sub a by ordfeminine;
+	sub o by ordmasculine;
+} SUB_3;
+
+
+feature aalt {
+# automatic
+
+} aalt;
+
+feature frac {
+script DFLT;
+language dflt;
+lookup SUB_1 {
+	sub one slash two by onehalf;
+	sub one slash four by onequarter;
+	sub three slash four by threequarters;
+} SUB_1;
+script latn;
+language dflt;
+lookup SUB_1;
+
+} frac;
+
+feature ordn {
+script DFLT;
+language dflt;
+lookup SUB_2 {
+	@SUB_2_0_BT_0 = [zero one two three four five six seven eight nine];
+	sub @SUB_2_0_BT_0 [A a]' lookup SUB_3;
+	@SUB_2_1_BT_0 = [zero one two three four five six seven eight nine];
+	sub @SUB_2_1_BT_0 [O o]' lookup SUB_3;
+} SUB_2;
+script latn;
+language dflt;
+lookup SUB_2;
+
+} ordn;
+
+feature cpsp {
+script DFLT;
+language dflt;
+lookup POS_0 {
+	sub A by ordfeminine;
+	sub O by ordmasculine;
+	sub a by ordfeminine;
+	sub o by ordmasculine;
+} POS_0;
+script latn;
+language dflt;
+lookup POS_0;
+
+} cpsp;

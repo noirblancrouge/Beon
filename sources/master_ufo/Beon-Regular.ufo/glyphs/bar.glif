@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bar" format="2">
+  <advance width="120"/>
+  <unicode hex="007C"/>
+  <outline>
+    <contour>
+      <point x="30" y="644" type="curve" smooth="yes"/>
+      <point x="30" y="-42" type="line" smooth="yes"/>
+      <point x="30" y="-59"/>
+      <point x="43" y="-72"/>
+      <point x="60" y="-72" type="curve" smooth="yes"/>
+      <point x="77" y="-72"/>
+      <point x="90" y="-59"/>
+      <point x="90" y="-42" type="curve" smooth="yes"/>
+      <point x="90" y="644" type="line" smooth="yes"/>
+      <point x="90" y="661"/>
+      <point x="77" y="674"/>
+      <point x="60" y="674" type="curve" smooth="yes"/>
+      <point x="43" y="674"/>
+      <point x="30" y="661"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-72</integer>
+            <integer>746</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>30</integer>
+            <integer>60</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

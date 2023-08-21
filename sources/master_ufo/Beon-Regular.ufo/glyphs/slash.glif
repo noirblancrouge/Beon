@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slash" format="2">
+  <advance width="320"/>
+  <unicode hex="002F"/>
+  <outline>
+    <contour>
+      <point x="237" y="644" type="curve" smooth="yes"/>
+      <point x="35" y="0" type="line" smooth="yes"/>
+      <point x="34" y="-3"/>
+      <point x="34" y="-6"/>
+      <point x="34" y="-9" type="curve" smooth="yes"/>
+      <point x="34" y="-25"/>
+      <point x="46" y="-39"/>
+      <point x="64" y="-39" type="curve" smooth="yes"/>
+      <point x="77" y="-39"/>
+      <point x="89" y="-31"/>
+      <point x="93" y="-18" type="curve" smooth="yes"/>
+      <point x="295" y="626" type="line" smooth="yes"/>
+      <point x="296" y="629"/>
+      <point x="296" y="632"/>
+      <point x="296" y="635" type="curve" smooth="yes"/>
+      <point x="296" y="651"/>
+      <point x="284" y="665"/>
+      <point x="266" y="665" type="curve" smooth="yes"/>
+      <point x="253" y="665"/>
+      <point x="241" y="657"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-39</integer>
+            <integer>704</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>34</integer>
+            <integer>262</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
