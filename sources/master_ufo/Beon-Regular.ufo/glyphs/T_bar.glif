@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tbar" format="2">
+  <advance width="620"/>
+  <unicode hex="0166"/>
+  <anchor x="310" y="16" name="bottom"/>
+  <anchor x="310" y="366" name="center"/>
+  <anchor x="310" y="774" name="top"/>
+  <outline>
+    <contour>
+      <point x="220" y="396" type="curve" smooth="yes"/>
+      <point x="127" y="396" type="line" smooth="yes"/>
+      <point x="110" y="396"/>
+      <point x="97" y="383"/>
+      <point x="97" y="366" type="curve" smooth="yes"/>
+      <point x="97" y="349"/>
+      <point x="110" y="336"/>
+      <point x="127" y="336" type="curve" smooth="yes"/>
+      <point x="220" y="336" type="line" smooth="yes"/>
+      <point x="237" y="336"/>
+      <point x="250" y="349"/>
+      <point x="250" y="366" type="curve" smooth="yes"/>
+      <point x="250" y="383"/>
+      <point x="237" y="396"/>
+    </contour>
+    <contour>
+      <point x="493" y="396" type="curve" smooth="yes"/>
+      <point x="400" y="396" type="line" smooth="yes"/>
+      <point x="383" y="396"/>
+      <point x="370" y="383"/>
+      <point x="370" y="366" type="curve" smooth="yes"/>
+      <point x="370" y="349"/>
+      <point x="383" y="336"/>
+      <point x="400" y="336" type="curve" smooth="yes"/>
+      <point x="493" y="336" type="line" smooth="yes"/>
+      <point x="510" y="336"/>
+      <point x="523" y="349"/>
+      <point x="523" y="366" type="curve" smooth="yes"/>
+      <point x="523" y="383"/>
+      <point x="510" y="396"/>
+    </contour>
+    <component base="T"/>
+  </outline>
+</glyph>

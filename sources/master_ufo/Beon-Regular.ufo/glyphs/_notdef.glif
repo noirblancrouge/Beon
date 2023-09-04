@@ -1,6 +1,137 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name=".notdef" format="2">
   <advance width="1000"/>
+  <anchor x="697.636" y="-19.549599999999998" name="bottom_1"/>
+  <anchor x="696.0784" y="302.89279999999997" name="bottom_2"/>
+  <anchor x="696.0784" y="643.2568" name="bottom_3"/>
+  <anchor x="500.9184" y="302.89279999999997" name="center"/>
+  <anchor x="274.97520000000003" y="-19.549599999999998" name="top_1"/>
+  <anchor x="273.4176" y="302.89279999999997" name="top_2"/>
+  <anchor x="273.4176" y="627.0864" name="top_3"/>
   <outline>
+    <component base="N" xScale="0.0" xyScale="0.5576" yxScale="-0.5576" yScale="0.0" xOffset="706" yOffset="-203"/>
+    <component base="B" xScale="0.0" xyScale="0.5576" yxScale="-0.5576" yScale="0.0" xOffset="705" yOffset="120"/>
+    <component base="R" xScale="0.0" xyScale="0.5576" yxScale="-0.5576" yScale="0.0" xOffset="705" yOffset="452"/>
+    <component base="braceleft" xOffset="-10"/>
+    <component base="braceright" xOffset="731"/>
+    <component base="period" xScale="0.0" xyScale="0.5568" yxScale="-0.5568" yScale="0.0" xOffset="702" yOffset="779"/>
   </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>B</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>R</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>braceleft</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>4</integer>
+          <key>name</key>
+          <string>braceright</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>1</integer>
+            <integer>50</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>484</integer>
+            <integer>50</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>50</integer>
+            <integer>50</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>400</integer>
+            <integer>50</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Stem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
 </glyph>

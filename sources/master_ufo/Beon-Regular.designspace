@@ -17,25 +17,10 @@
     </source>
   </sources>
   <instances>
-    <instance name="Beon Regular" familyname="Beon" stylename="Regular" filename="../instance_ufo/Beon-Regular.ufo" postscriptfontname="Beon-Regular" stylemapfamilyname="Beon" stylemapstylename="regular">
+    <instance name="Beon Regular" familyname="Beon" stylename="Regular" filename="../instance_ufo/Beon-Regular.ufo" stylemapfamilyname="Beon" stylemapstylename="regular">
       <location>
         <dimension name="Weight" xvalue="100"/>
       </location>
-      <lib>
-        <dict>
-          <key>com.schriftgestaltung.properties</key>
-          <array>
-            <array>
-              <string>styleNames</string>
-              <string>Regular</string>
-            </array>
-            <array>
-              <string>postscriptFullName</string>
-              <string>Beon</string>
-            </array>
-          </array>
-        </dict>
-      </lib>
     </instance>
   </instances>
 </designspace>
