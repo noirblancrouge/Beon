@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-A
-);
 classes = (
 {
 automatic = 1;
@@ -287,11 +284,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1110;
+value = 1193;
 },
 {
 name = winDescent;
-value = 310;
+value = 343;
 },
 {
 name = hheaAscender;
@@ -60611,7 +60608,7 @@ unicode = 731;
 },
 {
 glyphname = commaturnedmod;
-lastChange = "2023-09-14 14:02:15 +0000";
+lastChange = "2023-09-14 14:27:53 +0000";
 layers = (
 {
 layerId = m01;
@@ -60619,7 +60616,7 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (210,800);
+pos = (210,750);
 ref = comma;
 }
 );
