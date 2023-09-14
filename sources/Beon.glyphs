@@ -28680,7 +28680,7 @@ unicode = 601;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2023-09-04 14:13:34 +0000";
+lastChange = "2023-09-14 14:37:29 +0000";
 layers = (
 {
 anchors = (
@@ -30876,7 +30876,7 @@ unicode = 7717;
 glyphname = i;
 kernLeft = dotlessi;
 kernRight = dotlessi;
-lastChange = "2023-09-14 13:41:53 +0000";
+lastChange = "2023-09-14 14:37:12 +0000";
 layers = (
 {
 layerId = m01;
@@ -38730,7 +38730,7 @@ unicode = 7775;
 glyphname = s;
 kernLeft = s;
 kernRight = s;
-lastChange = "2023-09-04 14:13:34 +0000";
+lastChange = "2023-09-14 14:37:31 +0000";
 layers = (
 {
 anchors = (
@@ -44353,7 +44353,7 @@ metricRight = f;
 glyphname = f_f_ij;
 kernLeft = f;
 kernRight = j;
-lastChange = "2023-09-14 14:02:13 +0000";
+lastChange = "2023-09-14 14:37:36 +0000";
 layers = (
 {
 anchors = (
@@ -44396,11 +44396,11 @@ shapes = (
 ref = f_f;
 },
 {
-pos = (829,0);
+pos = (819,0);
 ref = ij;
 }
 );
-width = 1229;
+width = 1219;
 }
 );
 metricLeft = f;
@@ -44410,7 +44410,7 @@ metricRight = ij;
 glyphname = f_f_l;
 kernLeft = f;
 kernRight = l;
-lastChange = "2023-09-14 14:02:13 +0000";
+lastChange = "2023-09-14 14:37:29 +0000";
 layers = (
 {
 anchors = (
@@ -44429,11 +44429,11 @@ shapes = (
 ref = f_f;
 },
 {
-pos = (839,0);
+pos = (819,0);
 ref = l;
 }
 );
-width = 1039;
+width = 1019;
 }
 );
 metricLeft = f;
@@ -44534,7 +44534,7 @@ metricRight = l;
 glyphname = fi;
 kernLeft = f;
 kernRight = dotlessi;
-lastChange = "2023-09-14 14:02:13 +0000";
+lastChange = "2023-09-14 14:37:26 +0000";
 layers = (
 {
 anchors = (
@@ -44549,11 +44549,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (480,0);
+pos = (470,0);
 ref = i;
 }
 );
-width = 680;
+width = 670;
 }
 );
 metricLeft = f;
@@ -61092,7 +61092,10 @@ periodcentered.loclCAT.case = -260;
 "@MMK_R_seven" = -10;
 };
 "@MMK_L_f" = {
-"@MMK_R_h" = 10;
+"@MMK_R_dotlessi" = -10;
+"@MMK_R_dotlessj" = -10;
+"@MMK_R_f" = -20;
+"@MMK_R_h" = -10;
 "@MMK_R_period" = -110;
 };
 "@MMK_L_five" = {
@@ -61162,6 +61165,9 @@ periodcentered.loclCAT.case = -260;
 };
 "@MMK_L_r" = {
 "@MMK_R_period" = -110;
+};
+"@MMK_L_s" = {
+"@MMK_R_t" = -20;
 };
 "@MMK_L_seven" = {
 "@MMK_R_eight" = -30;
