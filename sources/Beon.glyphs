@@ -44353,7 +44353,7 @@ metricRight = f;
 glyphname = f_f_ij;
 kernLeft = f;
 kernRight = j;
-lastChange = "2023-09-14 14:37:36 +0000";
+lastChange = "2023-09-14 14:44:44 +0000";
 layers = (
 {
 anchors = (
@@ -44410,7 +44410,7 @@ metricRight = ij;
 glyphname = f_f_l;
 kernLeft = f;
 kernRight = l;
-lastChange = "2023-09-14 14:37:29 +0000";
+lastChange = "2023-09-14 14:44:47 +0000";
 layers = (
 {
 anchors = (
@@ -44443,7 +44443,7 @@ metricRight = l;
 glyphname = f_i;
 kernLeft = f;
 kernRight = dotlessi;
-lastChange = "2023-09-14 14:02:13 +0000";
+lastChange = "2023-09-14 14:44:53 +0000";
 layers = (
 {
 anchors = (
@@ -44489,7 +44489,7 @@ metricRight = i;
 glyphname = f_l;
 kernLeft = f;
 kernRight = l;
-lastChange = "2023-09-14 14:02:13 +0000";
+lastChange = "2023-09-14 14:43:33 +0000";
 layers = (
 {
 anchors = (
@@ -44520,11 +44520,11 @@ shapes = (
 ref = f;
 },
 {
-pos = (490,0);
+pos = (470,0);
 ref = l;
 }
 );
-width = 690;
+width = 670;
 }
 );
 metricLeft = f;
@@ -44534,7 +44534,7 @@ metricRight = l;
 glyphname = fi;
 kernLeft = f;
 kernRight = dotlessi;
-lastChange = "2023-09-14 14:37:26 +0000";
+lastChange = "2023-09-14 14:44:58 +0000";
 layers = (
 {
 anchors = (
@@ -61081,6 +61081,7 @@ periodcentered.loclCAT.case = -260;
 "@MMK_R_dotlessj" = 260;
 };
 "@MMK_L_dotlessi" = {
+"@MMK_R_f" = -10;
 "@MMK_R_x" = 10;
 };
 "@MMK_L_e" = {
@@ -61108,11 +61109,15 @@ periodcentered.loclCAT.case = -260;
 "@MMK_R_dotlessj" = 150;
 "@MMK_R_o" = -20;
 };
+"@MMK_L_j" = {
+"@MMK_R_f" = -10;
+};
 "@MMK_L_k" = {
 "@MMK_R_a" = -20;
 "@MMK_R_o" = -20;
 };
 "@MMK_L_l" = {
+"@MMK_R_f" = -10;
 "@MMK_R_o" = -10;
 };
 "@MMK_L_n" = {
