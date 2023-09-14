@@ -1,5 +1,17 @@
 # Beon
 
+[![][Fontbakery]](http://noirblancrouge.github.io/Beon/fontbakery/fontbakery-report.html)
+[![][Universal]](http://noirblancrouge.github.io/Beon/fontbakery/fontbakery-report.html)
+[![][GF Profile]](http://noirblancrouge.github.io/Beon/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](http://noirblancrouge.github.io/Beon/fontbakery/fontbakery-report.html)
+[![][Shaping]](http://noirblancrouge.github.io/Beon/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Beon/fontbakery/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Beon/fontbakery/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Beon/fontbakery/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Beon/fontbakery/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Beon/fontbakery/Universal.json
+
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Beon/master/documentation/images/beon.jpg)
 
 Beon is a Neon stencil typeface, comes in a single weight, including multilingual support and openType features.
