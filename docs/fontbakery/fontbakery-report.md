@@ -2,18 +2,15 @@
 
 fontbakery version: 0.9.0
 
-<details><summary><b>[9] Beon-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[6] Beon-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
 
 
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
+* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
-* 🔥 **FAIL** The following glyphs have duplicate components which have the same x,y coordinates:
-	* {'glyph': 'iogonek', 'component': 'uni0328', 'x': -227, 'y': 25} and {'glyph': 'quotedbl', 'component': 'quotesingle', 'x': 90, 'y': 0} [code: found-duplicates]
+* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1193, but got 1020 instead [code: ascent]
+* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 343, but got 150 instead [code: descent]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -28,10 +25,6 @@ fontbakery version: 0.9.0
 	- f + i
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* ⚠ **WARN** We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.55x (1550) [code: bad-hhea-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -163,8 +156,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: registered	Contours detected: 5	Expected: 3or4
 
 	- Glyph name: plusminus	Contours detected: 4	Expected: 1or2
@@ -283,8 +274,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 4	Expected: 1
 
-	- Glyph name: iogonek	Contours detected: 4	Expected: 2or3
-
 	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: ij	Contours detected: 5	Expected: 3or4
@@ -362,6 +351,8 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni0162	Contours detected: 3	Expected: 1or2
 
 	- Glyph name: uni0163	Contours detected: 4	Expected: 1or2
+
+	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
 
 	- Glyph name: tcaron	Contours detected: 4	Expected: 2
 
@@ -761,6 +752,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Tbar	Contours detected: 4	Expected: 1
 
+	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
+
 	- Glyph name: U	Contours detected: 3	Expected: 1
 
 	- Glyph name: Uacute	Contours detected: 4	Expected: 2
@@ -887,8 +880,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
-	- Glyph name: iogonek	Contours detected: 4	Expected: 2or3
-
 	- Glyph name: j	Contours detected: 3	Expected: 2
 
 	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
@@ -994,8 +985,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
 
 	- Glyph name: umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 3	Expected: 1
 
@@ -1201,27 +1190,14 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: zdotaccent	Contours detected: 4	Expected: 2
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 600 among a set of 12 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 500:
-approxequal
- [code: width-outliers]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 7 | 121 | 7 | 113 | 0 |
-| 0% | 1% | 3% | 48% | 3% | 45% | 0% |
+| 0 | 2 | 4 | 121 | 7 | 116 | 0 |
+| 0% | 1% | 2% | 48% | 3% | 46% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

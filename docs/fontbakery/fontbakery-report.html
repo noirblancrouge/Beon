@@ -74,31 +74,23 @@
             <tr>
                 <td>0</td>
                 <td>2</td>
-                <td>7</td>
+                <td>4</td>
                 <td>121</td>
                 <td>7</td>
-                <td>113</td>
+                <td>116</td>
             </tr>
             <tr>
                 <td>0%</td>
                 <td>1%</td>
-                <td>3%</td>
+                <td>2%</td>
                 <td>48%</td>
                 <td>3%</td>
-                <td>45%</td>
+                <td>46%</td>
             </tr>
             </table>
             
 <p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
-<h2>&lt;Section: Google Fonts&gt; 🔥⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
-<h3>Check Google Fonts glyph coverage.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Missing required codepoints:</p>
-<pre><code>- 0x0164 (LATIN CAPITAL LETTER T WITH CARON)
-</code></pre>
-<p>[code: missing-codepoints]</p>
-</span></li></ul></div></details>
+<h2>&lt;Section: Google Fonts&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
 <h3>Is there kerning info for non-ligated sequences?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
 
@@ -117,14 +109,20 @@
 <h3>Check font follows the Google Fonts vertical metric schema</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/vertical_metrics&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>We recommend the absolute sum of the hhea metrics should be between 1.2-1.5x of the font's upm. This font has 1.55x (1550) [code: bad-hhea-range]</p>
+<details><summary>🔥 <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 1170 when it should be at least 1200 [code: bad-hhea-range]</p>
 </span></li></ul></div></details>
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
 <details><summary>⚠️ <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h2>&lt;Section: Universal&gt; 🔥⚠️⚠️⏩⏩⏩⏩⏩⏩ℹ️ℹ️</h2>
+<h3>Checking OS/2 usWinAscent & usWinDescent.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/family/win_ascent_and_descent&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinAscent value should be equal or greater than 1193, but got 1020 instead [code: ascent]</p>
+</span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>OS/2.usWinDescent value should be equal or greater than 343, but got 150 instead [code: descent]</p>
+</span></li></ul></div></details>
 <h3>Check if uppercase glyphs are vertically centered.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/caps_vertically_centered&gt;</div>
 
@@ -251,8 +249,6 @@
 
 - Glyph name: logicalnot	Contours detected: 2	Expected: 1
 
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 - Glyph name: registered	Contours detected: 5	Expected: 3or4
 
 - Glyph name: plusminus	Contours detected: 4	Expected: 1or2
@@ -371,8 +367,6 @@
 
 - Glyph name: hbar	Contours detected: 4	Expected: 1
 
-- Glyph name: iogonek	Contours detected: 4	Expected: 2or3
-
 - Glyph name: IJ	Contours detected: 3	Expected: 1or2
 
 - Glyph name: ij	Contours detected: 5	Expected: 3or4
@@ -450,6 +444,8 @@
 - Glyph name: uni0162	Contours detected: 3	Expected: 1or2
 
 - Glyph name: uni0163	Contours detected: 4	Expected: 1or2
+
+- Glyph name: Tcaron	Contours detected: 3	Expected: 2
 
 - Glyph name: tcaron	Contours detected: 4	Expected: 2
 
@@ -849,6 +845,8 @@
 
 - Glyph name: Tbar	Contours detected: 4	Expected: 1
 
+- Glyph name: Tcaron	Contours detected: 3	Expected: 2
+
 - Glyph name: U	Contours detected: 3	Expected: 1
 
 - Glyph name: Uacute	Contours detected: 4	Expected: 2
@@ -975,8 +973,6 @@
 
 - Glyph name: infinity	Contours detected: 1	Expected: 3
 
-- Glyph name: iogonek	Contours detected: 4	Expected: 2or3
-
 - Glyph name: j	Contours detected: 3	Expected: 2
 
 - Glyph name: jcircumflex	Contours detected: 3	Expected: 2
@@ -1082,8 +1078,6 @@
 - Glyph name: uhungarumlaut	Contours detected: 4	Expected: 3
 
 - Glyph name: umacron	Contours detected: 3	Expected: 2
-
-- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 - Glyph name: uni00B5	Contours detected: 3	Expected: 1
 
@@ -1290,27 +1284,6 @@
 - Glyph name: zdotaccent	Contours detected: 4	Expected: 2
 </code></pre>
 <p>[code: contour-count]</p>
-</span></li></ul></div></details>
-<h3>Does the font contain a soft hyphen?</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_hyphen&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
-</span></li></ul></div></details>
-<h3>Check math signs have the same width.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
-
-<details><summary>⚠️ <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 600 among a set of 12 math glyphs.
-The following math glyphs have a different width, though:</p>
-<p>Width = 500:
-approxequal
-[code: width-outliers]</p>
-</span></li></ul></div></details>
-<h2>&lt;Section: fontbakery.profiles.glyf&gt; 🔥</h2>
-<h3>Check glyphs do not have duplicate components which have the same x,y coordinates.</h3>
-<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_non_transformed_duplicate_components&gt;</div>
-
-<details><summary>🔥 <strong>fonts/ttf/Beon-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have duplicate components which have the same x,y coordinates:
-* {'glyph': 'iogonek', 'component': 'uni0328', 'x': -227, 'y': 25} and {'glyph': 'quotedbl', 'component': 'quotesingle', 'x': 90, 'y': 0} [code: found-duplicates]</p>
 </span></li></ul></div></details>
                     </body>
                 </html>
