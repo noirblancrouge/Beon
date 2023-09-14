@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+A
+);
 classes = (
 {
 automatic = 1;
@@ -272,11 +275,11 @@ fontMaster = (
 customParameters = (
 {
 name = typoAscender;
-value = 1020;
+value = 1110;
 },
 {
 name = typoDescender;
-value = -150;
+value = -310;
 },
 {
 name = typoLineGap;
@@ -284,19 +287,19 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1020;
+value = 1110;
 },
 {
 name = winDescent;
-value = 150;
+value = 310;
 },
 {
 name = hheaAscender;
-value = 1020;
+value = 1110;
 },
 {
 name = hheaDescender;
-value = -150;
+value = -310;
 },
 {
 name = strikeoutPosition;
@@ -327,7 +330,7 @@ size = "-4";
 id = m01;
 metricValues = (
 {
-pos = 800;
+pos = 750;
 },
 {
 over = 5;
@@ -341,7 +344,7 @@ pos = 582;
 over = -5;
 },
 {
-pos = -150;
+pos = -250;
 },
 {
 }
