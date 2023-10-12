@@ -1,11 +1,102 @@
 ## FontBakery report
 
-fontbakery version: 0.9.0
+fontbakery version: 0.9.2
 
-<details><summary><b>[3] Beon-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[3] Beon-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
-* 🔥 **FAIL** Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+* ⚠ **WARN** The following codepoints supported by the font are not covered by
+    any subsets defined in the font's metadata file, and will never
+    be served. You can solve this by either manually adding additional
+    subset declarations to METADATA.pb, or by editing the glyphset
+    definitions.
+
+ * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
+ * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
+ * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
+ * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
+ * U+02CC MODIFIER LETTER LOW VERTICAL LINE: not included in any glyphset definition
+ * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
+ * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
+ * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, math, malayalam, tai-le, tifinagh, syriac, coptic
+ * U+030A COMBINING RING ABOVE: try adding syriac
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
+ * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
+ * U+0327 COMBINING CEDILLA: not included in any glyphset definition
+ * U+0328 COMBINING OGONEK: not included in any glyphset definition
+ * U+032E COMBINING BREVE BELOW: try adding syriac
+ * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, tifinagh, syriac
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, greek, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
+ * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EB9 LATIN SMALL LETTER E WITH DOT BELOW: try adding vietnamese
+ * U+1EBC LATIN CAPITAL LETTER E WITH TILDE: try adding vietnamese
+ * U+1EBD LATIN SMALL LETTER E WITH TILDE: try adding vietnamese
+ * U+1ECB LATIN SMALL LETTER I WITH DOT BELOW: try adding vietnamese
+ * U+1ECC LATIN CAPITAL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1ECD LATIN SMALL LETTER O WITH DOT BELOW: try adding vietnamese
+ * U+1EE4 LATIN CAPITAL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+1EE5 LATIN SMALL LETTER U WITH DOT BELOW: try adding vietnamese
+ * U+2007 FIGURE SPACE: not included in any glyphset definition
+ * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
+ * U+200A HAIR SPACE: not included in any glyphset definition
+ * U+2010 HYPHEN: try adding one of: syloti-nagri, cham, kaithi, yi, kharoshthi, sora-sompeng, lisu, sundanese, kayah-li, coptic
+ * U+2012 FIGURE DASH: not included in any glyphset definition
+ * U+2015 HORIZONTAL BAR: try adding adlam
+ * U+2021 DOUBLE DAGGER: try adding adlam
+ * U+2030 PER MILLE SIGN: try adding adlam
+ * U+2070 SUPERSCRIPT ZERO: not included in any glyphset definition
+ * U+2075 SUPERSCRIPT FIVE: not included in any glyphset definition
+ * U+2076 SUPERSCRIPT SIX: not included in any glyphset definition
+ * U+2077 SUPERSCRIPT SEVEN: not included in any glyphset definition
+ * U+2078 SUPERSCRIPT EIGHT: not included in any glyphset definition
+ * U+2079 SUPERSCRIPT NINE: not included in any glyphset definition
+ * U+2080 SUBSCRIPT ZERO: not included in any glyphset definition
+ * U+2081 SUBSCRIPT ONE: not included in any glyphset definition
+ * U+2082 SUBSCRIPT TWO: not included in any glyphset definition
+ * U+2083 SUBSCRIPT THREE: not included in any glyphset definition
+ * U+2084 SUBSCRIPT FOUR: not included in any glyphset definition
+ * U+2085 SUBSCRIPT FIVE: not included in any glyphset definition
+ * U+2086 SUBSCRIPT SIX: not included in any glyphset definition
+ * U+2087 SUBSCRIPT SEVEN: not included in any glyphset definition
+ * U+2088 SUBSCRIPT EIGHT: not included in any glyphset definition
+ * U+2089 SUBSCRIPT NINE: not included in any glyphset definition
+ * U+2116 NUMERO SIGN: try adding cyrillic
+ * U+2126 OHM SIGN: not included in any glyphset definition
+ * U+212E ESTIMATED SYMBOL: not included in any glyphset definition
+ * U+2202 PARTIAL DIFFERENTIAL: try adding math
+ * U+2205 EMPTY SET: try adding math
+ * U+2206 INCREMENT: try adding math
+ * U+220F N-ARY PRODUCT: try adding math
+ * U+2211 N-ARY SUMMATION: try adding math
+ * U+221A SQUARE ROOT: try adding math
+ * U+221E INFINITY: try adding math
+ * U+222B INTEGRAL: try adding math
+ * U+2248 ALMOST EQUAL TO: try adding math
+ * U+2260 NOT EQUAL TO: try adding math
+ * U+2264 LESS-THAN OR EQUAL TO: try adding math
+ * U+2265 GREATER-THAN OR EQUAL TO: try adding math
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, siddham, tai-le, limbu, bhaiksuki, grantha, kannada, sundanese, sogdian, gurmukhi, symbols, mende-kikakui, oriya, cham, miao, bassa-vah, new-tai-lue, tagalog, takri, meetei-mayek, tagbanwa, tifinagh, lao, mongolian, old-permic, khojki, music, soyombo, tibetan, devanagari, wancho, sharada, sinhala, dogra, math, osage, zanabazar-square, hanifi-rohingya, khmer, mahajani, buginese, newa, duployan, psalter-pahlavi, hanunoo, batak, buhid, mandaic, thaana, yi, rejang, ahom, phags-pa, modi, elbasan, manichaean, nko, chakma, tirhuta, tamil, javanese, syloti-nagri, telugu, hebrew, kayah-li, syriac, gunjala-gondi, tai-viet, thai, kaithi, brahmi, malayalam, khudawadi, kharoshthi, gujarati, adlam, caucasian-albanian, lepcha, masaram-gondi, bengali, balinese, myanmar, coptic, marchen
+ * U+E133 : not included in any glyphset definition
+ * U+E134 : not included in any glyphset definition
+ * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
+ * U+FB02 LATIN SMALL LIGATURE FL: not included in any glyphset definition
+
+Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -29,7 +120,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: numbersign	Contours detected: 8	Expected: 2
 
-	- Glyph name: asterisk	Contours detected: 8	Expected: 1or4
+	- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
 
 	- Glyph name: plus	Contours detected: 3	Expected: 1
 
@@ -39,7 +130,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: three	Contours detected: 2	Expected: 1
 
-	- Glyph name: four	Contours detected: 3	Expected: 1or2
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: five	Contours detected: 3	Expected: 1
 
@@ -63,7 +154,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: J	Contours detected: 2	Expected: 1
 
-	- Glyph name: K	Contours detected: 3	Expected: 1or2
+	- Glyph name: K	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: L	Contours detected: 2	Expected: 1
 
@@ -71,7 +162,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: N	Contours detected: 3	Expected: 1
 
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
+	- Glyph name: R	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: S	Contours detected: 3	Expected: 1
 
@@ -81,7 +172,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: V	Contours detected: 2	Expected: 1
 
-	- Glyph name: W	Contours detected: 4	Expected: 1or2
+	- Glyph name: W	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: X	Contours detected: 3	Expected: 1
 
@@ -101,7 +192,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: j	Contours detected: 3	Expected: 2
 
-	- Glyph name: k	Contours detected: 3	Expected: 1or2
+	- Glyph name: k	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: m	Contours detected: 3	Expected: 1
 
@@ -129,13 +220,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: braceright	Contours detected: 2	Expected: 1
 
-	- Glyph name: cent	Contours detected: 3	Expected: 1or2
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: sterling	Contours detected: 4	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: currency	Contours detected: 6	Expected: 2
 
-	- Glyph name: yen	Contours detected: 6	Expected: 1or2
+	- Glyph name: yen	Contours detected: 6	Expected: 1 or 2
 
 	- Glyph name: section	Contours detected: 3	Expected: 2
 
@@ -143,9 +234,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: logicalnot	Contours detected: 2	Expected: 1
 
-	- Glyph name: registered	Contours detected: 5	Expected: 3or4
+	- Glyph name: registered	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: plusminus	Contours detected: 4	Expected: 1or2
+	- Glyph name: plusminus	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni00B2	Contours detected: 2	Expected: 1
 
@@ -157,11 +248,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: guillemotright	Contours detected: 4	Expected: 2
 
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3or4
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: onehalf	Contours detected: 5	Expected: 3
 
-	- Glyph name: threequarters	Contours detected: 6	Expected: 3or4
+	- Glyph name: threequarters	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: Agrave	Contours detected: 4	Expected: 3
 
@@ -173,7 +264,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Adieresis	Contours detected: 5	Expected: 4
 
-	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
+	- Glyph name: Aring	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: AE	Contours detected: 6	Expected: 2
 
@@ -225,7 +316,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Abreve	Contours detected: 4	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
+	- Glyph name: Aogonek	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -239,7 +330,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Edotaccent	Contours detected: 5	Expected: 2
 
-	- Glyph name: Eogonek	Contours detected: 5	Expected: 1or2
+	- Glyph name: Eogonek	Contours detected: 5	Expected: 1 or 2
 
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
@@ -261,17 +352,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hbar	Contours detected: 4	Expected: 1
 
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+	- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: ij	Contours detected: 5	Expected: 3or4
+	- Glyph name: ij	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2 or 3
 
-	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
+	- Glyph name: uni0137	Contours detected: 4	Expected: 2 or 3
 
-	- Glyph name: kgreenlandic	Contours detected: 3	Expected: 1or2
+	- Glyph name: kgreenlandic	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: Lacute	Contours detected: 3	Expected: 2
 
@@ -327,17 +418,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: scircumflex	Contours detected: 3	Expected: 2
 
-	- Glyph name: Scedilla	Contours detected: 4	Expected: 1or2
+	- Glyph name: Scedilla	Contours detected: 4	Expected: 1 or 2
 
-	- Glyph name: scedilla	Contours detected: 3	Expected: 1or2
+	- Glyph name: scedilla	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: Scaron	Contours detected: 4	Expected: 2
 
 	- Glyph name: scaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0162	Contours detected: 3	Expected: 1or2
+	- Glyph name: uni0162	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0163	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni0163	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Tcaron	Contours detected: 3	Expected: 2
 
@@ -403,7 +494,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4 or 5
 
 	- Glyph name: AEacute	Contours detected: 7	Expected: 3
 
@@ -561,15 +652,15 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF9	Contours detected: 4	Expected: 2
 
-	- Glyph name: dagger	Contours detected: 3	Expected: 1or2
+	- Glyph name: dagger	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: daggerdbl	Contours detected: 5	Expected: 1or3
+	- Glyph name: daggerdbl	Contours detected: 5	Expected: 1 or 3
 
 	- Glyph name: guilsinglleft	Contours detected: 2	Expected: 1
 
 	- Glyph name: guilsinglright	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni2074	Contours detected: 3	Expected: 1or2
+	- Glyph name: uni2074	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: uni2075	Contours detected: 3	Expected: 1
 
@@ -583,7 +674,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2083	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni2084	Contours detected: 3	Expected: 1or2
+	- Glyph name: uni2084	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: uni2085	Contours detected: 3	Expected: 1
 
@@ -591,9 +682,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni2088	Contours detected: 1	Expected: 3
 
-	- Glyph name: Euro	Contours detected: 5	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
 
-	- Glyph name: uni2116	Contours detected: 6	Expected: 3or4
+	- Glyph name: uni2116	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: trademark	Contours detected: 6	Expected: 2
 
@@ -617,9 +708,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lozenge	Contours detected: 4	Expected: 2
 
-	- Glyph name: fi	Contours detected: 5	Expected: 1, 2or3
+	- Glyph name: fi	Contours detected: 5	Expected: 1, 2 or 3
 
-	- Glyph name: fl	Contours detected: 4	Expected: 1or2
+	- Glyph name: fl	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: A	Contours detected: 3	Expected: 2
 
@@ -639,11 +730,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Amacron	Contours detected: 4	Expected: 3
 
-	- Glyph name: Aogonek	Contours detected: 4	Expected: 2or3
+	- Glyph name: Aogonek	Contours detected: 4	Expected: 2 or 3
 
-	- Glyph name: Aring	Contours detected: 5	Expected: 3or4
+	- Glyph name: Aring	Contours detected: 5	Expected: 3 or 4
 
-	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4or5
+	- Glyph name: Aringacute	Contours detected: 6	Expected: 3, 4 or 5
 
 	- Glyph name: Atilde	Contours detected: 4	Expected: 3
 
@@ -669,11 +760,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Eng	Contours detected: 3	Expected: 1
 
-	- Glyph name: Eogonek	Contours detected: 5	Expected: 1or2
+	- Glyph name: Eogonek	Contours detected: 5	Expected: 1 or 2
 
 	- Glyph name: Eth	Contours detected: 4	Expected: 2
 
-	- Glyph name: Euro	Contours detected: 5	Expected: 1or2
+	- Glyph name: Euro	Contours detected: 5	Expected: 1 or 2
 
 	- Glyph name: F	Contours detected: 3	Expected: 1
 
@@ -693,11 +784,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Hcircumflex	Contours detected: 4	Expected: 2
 
-	- Glyph name: IJ	Contours detected: 3	Expected: 1or2
+	- Glyph name: IJ	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: J	Contours detected: 2	Expected: 1
 
-	- Glyph name: K	Contours detected: 3	Expected: 1or2
+	- Glyph name: K	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: L	Contours detected: 2	Expected: 1
 
@@ -721,7 +812,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: OE	Contours detected: 5	Expected: 2
 
-	- Glyph name: R	Contours detected: 3	Expected: 1or2
+	- Glyph name: R	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: Racute	Contours detected: 4	Expected: 3
 
@@ -765,7 +856,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: V	Contours detected: 2	Expected: 1
 
-	- Glyph name: W	Contours detected: 4	Expected: 1or2
+	- Glyph name: W	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: Wacute	Contours detected: 5	Expected: 2
 
@@ -803,7 +894,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: asciicircum	Contours detected: 2	Expected: 1
 
-	- Glyph name: asterisk	Contours detected: 8	Expected: 1or4
+	- Glyph name: asterisk	Contours detected: 8	Expected: 1 or 4
 
 	- Glyph name: braceleft	Contours detected: 2	Expected: 1
 
@@ -813,13 +904,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: bracketright	Contours detected: 3	Expected: 1
 
-	- Glyph name: cent	Contours detected: 3	Expected: 1or2
+	- Glyph name: cent	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: currency	Contours detected: 6	Expected: 2
 
-	- Glyph name: dagger	Contours detected: 3	Expected: 1or2
+	- Glyph name: dagger	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: daggerdbl	Contours detected: 5	Expected: 1or3
+	- Glyph name: daggerdbl	Contours detected: 5	Expected: 1 or 3
 
 	- Glyph name: dcroat	Contours detected: 4	Expected: 2
 
@@ -841,7 +932,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: fl	Contours detected: 4	Expected: 2
 
-	- Glyph name: four	Contours detected: 3	Expected: 1or2
+	- Glyph name: four	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: germandbls	Contours detected: 4	Expected: 1
 
@@ -863,7 +954,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: hcircumflex	Contours detected: 3	Expected: 2
 
-	- Glyph name: ij	Contours detected: 5	Expected: 3or4
+	- Glyph name: ij	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: infinity	Contours detected: 1	Expected: 3
 
@@ -871,9 +962,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: jcircumflex	Contours detected: 3	Expected: 2
 
-	- Glyph name: k	Contours detected: 3	Expected: 1or2
+	- Glyph name: k	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: kgreenlandic	Contours detected: 3	Expected: 1or2
+	- Glyph name: kgreenlandic	Contours detected: 3	Expected: 1 or 2
 
 	- Glyph name: less	Contours detected: 2	Expected: 1
 
@@ -907,13 +998,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: onehalf	Contours detected: 5	Expected: 3
 
-	- Glyph name: onequarter	Contours detected: 6	Expected: 3or4
+	- Glyph name: onequarter	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: pi	Contours detected: 3	Expected: 1
 
 	- Glyph name: plus	Contours detected: 3	Expected: 1
 
-	- Glyph name: plusminus	Contours detected: 4	Expected: 1or2
+	- Glyph name: plusminus	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: product	Contours detected: 3	Expected: 1
 
@@ -925,7 +1016,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: registered	Contours detected: 5	Expected: 3or4
+	- Glyph name: registered	Contours detected: 5	Expected: 3 or 4
 
 	- Glyph name: s	Contours detected: 2	Expected: 1
 
@@ -939,7 +1030,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: seven	Contours detected: 2	Expected: 1
 
-	- Glyph name: sterling	Contours detected: 4	Expected: 1or2
+	- Glyph name: sterling	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: summation	Contours detected: 4	Expected: 1
 
@@ -951,7 +1042,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: three	Contours detected: 2	Expected: 1
 
-	- Glyph name: threequarters	Contours detected: 6	Expected: 3or4
+	- Glyph name: threequarters	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: trademark	Contours detected: 6	Expected: 2
 
@@ -977,9 +1068,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0122	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0136	Contours detected: 4	Expected: 2or3
+	- Glyph name: uni0136	Contours detected: 4	Expected: 2 or 3
 
-	- Glyph name: uni0137	Contours detected: 4	Expected: 2or3
+	- Glyph name: uni0137	Contours detected: 4	Expected: 2 or 3
 
 	- Glyph name: uni013B	Contours detected: 3	Expected: 2
 
@@ -991,9 +1082,9 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0162	Contours detected: 3	Expected: 1or2
+	- Glyph name: uni0162	Contours detected: 3	Expected: 1 or 2
 
-	- Glyph name: uni0163	Contours detected: 4	Expected: 1or2
+	- Glyph name: uni0163	Contours detected: 4	Expected: 1 or 2
 
 	- Glyph name: uni019D	Contours detected: 3	Expected: 1
 
@@ -1131,7 +1222,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni1EF9	Contours detected: 4	Expected: 2
 
-	- Glyph name: uni2116	Contours detected: 6	Expected: 3or4
+	- Glyph name: uni2116	Contours detected: 6	Expected: 3 or 4
 
 	- Glyph name: uni2126	Contours detected: 3	Expected: 1
 
@@ -1165,7 +1256,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ydieresis	Contours detected: 5	Expected: 3
 
-	- Glyph name: yen	Contours detected: 6	Expected: 1or2
+	- Glyph name: yen	Contours detected: 6	Expected: 1 or 2
 
 	- Glyph name: ygrave	Contours detected: 4	Expected: 2
 
@@ -1183,7 +1274,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 2 | 121 | 8 | 118 | 0 |
+| 0 | 0 | 3 | 120 | 8 | 118 | 0 |
 | 0% | 0% | 1% | 48% | 3% | 47% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
