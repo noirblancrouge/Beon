@@ -1,8 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.2
 
-<details><summary><b>[3] Beon-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+<details><summary><b>[4] Beon-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -13,7 +13,7 @@ fontbakery version: 0.9.2
 
  * U+02BE MODIFIER LETTER RIGHT HALF RING: not included in any glyphset definition
  * U+02BF MODIFIER LETTER LEFT HALF RING: not included in any glyphset definition
- * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
  * U+02C8 MODIFIER LETTER VERTICAL LINE: not included in any glyphset definition
  * U+02CA MODIFIER LETTER ACUTE ACCENT: not included in any glyphset definition
  * U+02CB MODIFIER LETTER GRAVE ACCENT: not included in any glyphset definition
@@ -22,23 +22,23 @@ fontbakery version: 0.9.2
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, canadian-aboriginal, math, malayalam, tai-le, tifinagh, syriac, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, coptic, canadian-aboriginal, tai-le, syriac, tifinagh, math
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
+ * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, gothic, tifinagh, syriac
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: elbasan, greek, math
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: elbasan, greek, math
- * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, tifinagh, caucasian-albanian, gothic
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
@@ -53,7 +53,7 @@ fontbakery version: 0.9.2
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: syloti-nagri, cham, kaithi, yi, kharoshthi, sora-sompeng, lisu, sundanese, kayah-li, coptic
+ * U+2010 HYPHEN: try adding one of: lisu, kaithi, coptic, sora-sompeng, yi, kharoshthi, sundanese, kayah-li, syloti-nagri, cham
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -89,8 +89,8 @@ fontbakery version: 0.9.2
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: symbols, math
- * U+25CC DOTTED CIRCLE: try adding one of: pahawh-hmong, siddham, tai-le, limbu, bhaiksuki, grantha, kannada, sundanese, sogdian, gurmukhi, symbols, mende-kikakui, oriya, cham, miao, bassa-vah, new-tai-lue, tagalog, takri, meetei-mayek, tagbanwa, tifinagh, lao, mongolian, old-permic, khojki, music, soyombo, tibetan, devanagari, wancho, sharada, sinhala, dogra, math, osage, zanabazar-square, hanifi-rohingya, khmer, mahajani, buginese, newa, duployan, psalter-pahlavi, hanunoo, batak, buhid, mandaic, thaana, yi, rejang, ahom, phags-pa, modi, elbasan, manichaean, nko, chakma, tirhuta, tamil, javanese, syloti-nagri, telugu, hebrew, kayah-li, syriac, gunjala-gondi, tai-viet, thai, kaithi, brahmi, malayalam, khudawadi, kharoshthi, gujarati, adlam, caucasian-albanian, lepcha, masaram-gondi, bengali, balinese, myanmar, coptic, marchen
+ * U+25CA LOZENGE: try adding one of: math, symbols
+ * U+25CC DOTTED CIRCLE: try adding one of: old-permic, symbols, khmer, myanmar, kannada, masaram-gondi, hanifi-rohingya, siddham, ahom, psalter-pahlavi, nko, sogdian, cham, khojki, adlam, modi, syloti-nagri, gunjala-gondi, buhid, duployan, mende-kikakui, kharoshthi, mandaic, thaana, mongolian, devanagari, phags-pa, new-tai-lue, gurmukhi, miao, manichaean, meetei-mayek, grantha, newa, coptic, balinese, wancho, soyombo, sharada, tai-le, hebrew, telugu, lepcha, tagbanwa, limbu, tamil, kayah-li, osage, batak, bassa-vah, caucasian-albanian, oriya, mahajani, hanunoo, marchen, khudawadi, malayalam, tai-viet, rejang, tagalog, tirhuta, gujarati, syriac, elbasan, tibetan, music, sundanese, dogra, chakma, brahmi, zanabazar-square, bengali, kaithi, takri, lao, math, thai, yi, sinhala, javanese, buginese, pahawh-hmong, tifinagh, bhaiksuki
  * U+E133 : not included in any glyphset definition
  * U+E134 : not included in any glyphset definition
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
@@ -1268,14 +1268,24 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: zdotaccent	Contours detected: 4	Expected: 2
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have colinear vectors:
+
+	* comma (U+002C): L<<136.0,24.0>--<136.0,23.0>> -> L<<136.0,23.0>--<136.0,22.0>>
+
+	* semicolon (U+003B): L<<136.0,24.0>--<136.0,23.0>> -> L<<136.0,23.0>--<136.0,22.0>>
+
+	* uni02BB (U+02BB): L<<54.0,906.0>--<54.0,907.0>> -> L<<54.0,907.0>--<54.0,908.0>> [code: found-colinear-vectors]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 3 | 120 | 8 | 118 | 0 |
-| 0% | 0% | 1% | 48% | 3% | 47% | 0% |
+| 0 | 0 | 4 | 121 | 8 | 121 | 0 |
+| 0% | 0% | 2% | 48% | 3% | 48% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
