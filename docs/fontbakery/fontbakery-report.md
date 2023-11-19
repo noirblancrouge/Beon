@@ -2,7 +2,11 @@
 
 fontbakery version: 0.10.2
 
-<details><summary><b>[4] Beon-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
+<details><summary><b>[5] Beon-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.4 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
+</div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
 * ⚠ **WARN** The following codepoints supported by the font are not covered by
@@ -22,21 +26,21 @@ fontbakery version: 0.10.2
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
  * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, malayalam, coptic, canadian-aboriginal, tai-le, syriac, tifinagh, math
+ * U+0307 COMBINING DOT ABOVE: try adding one of: old-permic, math, tai-le, tifinagh, canadian-aboriginal, coptic, syriac, malayalam
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
- * U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee
- * U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, syriac, tifinagh, caucasian-albanian, gothic
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, greek, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, greek, elbasan
+ * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, tifinagh, gothic, cherokee, syriac
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek
  * U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek
  * U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
@@ -53,7 +57,7 @@ fontbakery version: 0.10.2
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: lisu, kaithi, coptic, sora-sompeng, yi, kharoshthi, sundanese, kayah-li, syloti-nagri, cham
+ * U+2010 HYPHEN: try adding one of: lisu, kharoshthi, kayah-li, kaithi, sundanese, syloti-nagri, yi, cham, sora-sompeng, coptic
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -90,7 +94,7 @@ fontbakery version: 0.10.2
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
  * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: old-permic, symbols, khmer, myanmar, kannada, masaram-gondi, hanifi-rohingya, siddham, ahom, psalter-pahlavi, nko, sogdian, cham, khojki, adlam, modi, syloti-nagri, gunjala-gondi, buhid, duployan, mende-kikakui, kharoshthi, mandaic, thaana, mongolian, devanagari, phags-pa, new-tai-lue, gurmukhi, miao, manichaean, meetei-mayek, grantha, newa, coptic, balinese, wancho, soyombo, sharada, tai-le, hebrew, telugu, lepcha, tagbanwa, limbu, tamil, kayah-li, osage, batak, bassa-vah, caucasian-albanian, oriya, mahajani, hanunoo, marchen, khudawadi, malayalam, tai-viet, rejang, tagalog, tirhuta, gujarati, syriac, elbasan, tibetan, music, sundanese, dogra, chakma, brahmi, zanabazar-square, bengali, kaithi, takri, lao, math, thai, yi, sinhala, javanese, buginese, pahawh-hmong, tifinagh, bhaiksuki
+ * U+25CC DOTTED CIRCLE: try adding one of: manichaean, soyombo, sundanese, zanabazar-square, thai, tagalog, sogdian, miao, caucasian-albanian, syriac, mongolian, gunjala-gondi, tai-viet, kaithi, wancho, math, coptic, gurmukhi, yi, symbols, nko, tamil, marchen, brahmi, kayah-li, kharoshthi, psalter-pahlavi, takri, buhid, bengali, duployan, ahom, old-permic, phags-pa, elbasan, myanmar, syloti-nagri, pahawh-hmong, devanagari, khojki, bhaiksuki, buginese, khudawadi, malayalam, siddham, dogra, tifinagh, meetei-mayek, lepcha, oriya, gujarati, newa, mandaic, khmer, mende-kikakui, cham, limbu, rejang, mahajani, tagbanwa, tibetan, kannada, modi, sharada, batak, chakma, grantha, javanese, tirhuta, telugu, adlam, new-tai-lue, thaana, balinese, osage, bassa-vah, hebrew, lao, hanunoo, hanifi-rohingya, sinhala, masaram-gondi, tai-le, music
  * U+E133 : not included in any glyphset definition
  * U+E134 : not included in any glyphset definition
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
@@ -1284,8 +1288,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 4 | 121 | 8 | 121 | 0 |
-| 0% | 0% | 2% | 48% | 3% | 48% | 0% |
+| 0 | 1 | 4 | 121 | 8 | 120 | 0 |
+| 0% | 0% | 2% | 48% | 3% | 47% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
