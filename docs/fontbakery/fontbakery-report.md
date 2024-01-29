@@ -2,7 +2,21 @@
 
 fontbakery version: 0.10.2
 
-<details><summary><b>[5] Beon-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
+<details><summary><b>[6] Beon-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/fonttools/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ConnectionError'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Do we have the latest version of FontBakery installed? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/fontbakery_version">com.google.fonts/check/fontbakery_version</a>)</summary><div>
 
 
 * 🔥 **FAIL** Current FontBakery version is 0.10.2, while a newer 0.10.9 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]
@@ -26,9 +40,9 @@ fontbakery version: 0.10.2
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, coptic, tifinagh, math
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, old-permic, math, malayalam, tai-le, coptic, tifinagh, canadian-aboriginal
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, cherokee, math, tifinagh
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, math, canadian-aboriginal, coptic, tifinagh, malayalam, tai-le, old-permic
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
  * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
@@ -38,11 +52,11 @@ fontbakery version: 0.10.2
  * U+0328 COMBINING OGONEK: not included in any glyphset definition
  * U+032E COMBINING BREVE BELOW: try adding syriac
  * U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math
- * U+0331 COMBINING MACRON BELOW: try adding one of: syriac, gothic, cherokee, caucasian-albanian, tifinagh
- * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, math, elbasan
- * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, math, elbasan
+ * U+0331 COMBINING MACRON BELOW: try adding one of: caucasian-albanian, syriac, cherokee, tifinagh, gothic
+ * U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: greek, elbasan, math
+ * U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: greek, elbasan, math
  * U+03BC GREEK SMALL LETTER MU: try adding one of: greek, math
- * U+03C0 GREEK SMALL LETTER PI: try adding one of: yi, greek, math
+ * U+03C0 GREEK SMALL LETTER PI: try adding one of: greek, yi, math
  * U+1EA0 LATIN CAPITAL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EA1 LATIN SMALL LETTER A WITH DOT BELOW: try adding vietnamese
  * U+1EB8 LATIN CAPITAL LETTER E WITH DOT BELOW: try adding vietnamese
@@ -57,7 +71,7 @@ fontbakery version: 0.10.2
  * U+2007 FIGURE SPACE: not included in any glyphset definition
  * U+2008 PUNCTUATION SPACE: not included in any glyphset definition
  * U+200A HAIR SPACE: not included in any glyphset definition
- * U+2010 HYPHEN: try adding one of: kaithi, sora-sompeng, sundanese, kharoshthi, lisu, syloti-nagri, yi, coptic, cham, kayah-li
+ * U+2010 HYPHEN: try adding one of: sora-sompeng, yi, sundanese, kharoshthi, lisu, kaithi, cham, syloti-nagri, coptic, kayah-li
  * U+2012 FIGURE DASH: not included in any glyphset definition
  * U+2015 HORIZONTAL BAR: try adding adlam
  * U+2021 DOUBLE DAGGER: try adding adlam
@@ -93,8 +107,8 @@ fontbakery version: 0.10.2
  * U+2260 NOT EQUAL TO: try adding math
  * U+2264 LESS-THAN OR EQUAL TO: try adding math
  * U+2265 GREATER-THAN OR EQUAL TO: try adding math
- * U+25CA LOZENGE: try adding one of: math, symbols
- * U+25CC DOTTED CIRCLE: try adding one of: manichaean, old-permic, bassa-vah, javanese, buginese, siddham, rejang, gurmukhi, tifinagh, syriac, nko, thai, mende-kikakui, kaithi, takri, masaram-gondi, elbasan, gunjala-gondi, lao, tagalog, bengali, marchen, new-tai-lue, chakma, zanabazar-square, hanunoo, tirhuta, khudawadi, tai-viet, symbols, myanmar, coptic, sharada, wancho, modi, syloti-nagri, khojki, yi, mandaic, brahmi, thaana, osage, phags-pa, adlam, newa, balinese, sogdian, tamil, sundanese, mahajani, music, gujarati, bhaiksuki, kayah-li, mongolian, pahawh-hmong, malayalam, kharoshthi, soyombo, buhid, limbu, ahom, math, oriya, lepcha, caucasian-albanian, dogra, devanagari, hebrew, khmer, meetei-mayek, telugu, kannada, tagbanwa, hanifi-rohingya, batak, cham, grantha, miao, psalter-pahlavi, duployan, tibetan, tai-le, sinhala
+ * U+25CA LOZENGE: try adding one of: symbols, math
+ * U+25CC DOTTED CIRCLE: try adding one of: ahom, pahawh-hmong, miao, lepcha, javanese, math, wancho, adlam, tibetan, soyombo, sharada, music, gurmukhi, hanifi-rohingya, meetei-mayek, grantha, tamil, malayalam, buhid, takri, tai-viet, thai, oriya, newa, mandaic, gunjala-gondi, hanunoo, kharoshthi, mende-kikakui, marchen, symbols, zanabazar-square, old-permic, brahmi, mongolian, osage, siddham, modi, nko, manichaean, sundanese, thaana, mahajani, syloti-nagri, tifinagh, batak, rejang, yi, buginese, balinese, limbu, kayah-li, gujarati, hebrew, duployan, khojki, bassa-vah, tirhuta, tagbanwa, psalter-pahlavi, bhaiksuki, coptic, devanagari, bengali, phags-pa, lao, telugu, masaram-gondi, cham, tai-le, elbasan, kaithi, sinhala, caucasian-albanian, myanmar, new-tai-lue, syriac, chakma, sogdian, tagalog, khmer, dogra, kannada, khudawadi
  * U+E133 : not included in any glyphset definition
  * U+E134 : not included in any glyphset definition
  * U+FB01 LATIN SMALL LIGATURE FI: not included in any glyphset definition
@@ -1288,7 +1302,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 4 | 121 | 8 | 120 | 0 |
+| 1 | 1 | 4 | 121 | 8 | 119 | 0 |
 | 0% | 0% | 2% | 48% | 3% | 47% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
